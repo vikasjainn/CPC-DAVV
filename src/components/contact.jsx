@@ -46,7 +46,8 @@ export const Contact = (props) => {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} Centralized Placement Cell, DAVV. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Crafted By <a href="https://www.linkedin.com/in/vikasjainn/">Vikas Jain</a> & <a href="https://www.linkedin.com/in/jayesh-patil-7ab42a203/">Jayesh Patil</a> | Copyright © 2025 Centralized Placement Cell, Devi Ahilya Vishwavidyalaya
+            </p>
           </div>
         </div>
       </footer>
