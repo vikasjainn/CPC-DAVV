@@ -1,0 +1,320 @@
+/* General Section Width and Padding */
+@media screen and (max-width: 400px) {
+  #features,
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer,
+  #portfolio {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Hero Section Styles (Unchanged Image) */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin: 0.5rem 0;
+  word-break: break-word;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: white;
+  max-width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+/* Hero Button Responsiveness */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* Responsive Header Text Only (Preserve Image) */
+#header .intro-text h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+#header .intro-text p {
+  font-size: 2.25rem;
+  color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  #header .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  #header .intro-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #header .intro-text h1 {
+    font-size: 2.5rem;
+  }
+
+  #header .intro-text p {
+    font-size: 1.9rem;
+  }
+}
+
+/* Counter Section Styles for Features.jsx */
+#features .counter-text {
+  font-size: 28px; /* Increase font size of the numbers */
+}
+
+#features .counter-text p {
+  font-size: 24px; /* Increase font size of the description text */
+}
+
+#features h3 {
+  font-weight: bold; /* Make the numbers bold */
+  font-size: 28px; /* Ensure the font size for numbers is large */
+}
+
+/* Additional responsiveness for counter text */
+@media (max-width: 768px) {
+  #features .counter-text {
+    font-size: 32px; /* Adjust font size for smaller screens */
+  }
+
+  #features .counter-text p {
+    font-size: 18px; /* Adjust font size of the description text */
+  }
+
+  #features h3 {
+    font-size: 32px; /* Adjust font size for the numbers */
+  }
+}
+
+@media (max-width: 480px) {
+  #features .counter-text {
+    font-size: 28px; /* Further adjust for smaller screens */
+  }
+
+  #features .counter-text p {
+    font-size: 16px; /* Further adjust the description text */
+  }
+
+  #features h3 {
+    font-size: 28px; /* Further adjust the numbers */
+  }
+}
+
+/* Inline Images 411x570 */
+/* Responsive Inline Images */
+.gallery-inline-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.gallery-inline-images img {
+  width: 100%;
+  max-width: 411px;
+  height: auto;
+  aspect-ratio: 411 / 570; /* Maintain the correct aspect ratio */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern Footer Styles */
+.footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 40px 20px 10px;
+  margin-top: 60px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer .footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  border-bottom: 2px solid #4f46e5;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section li {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #cccccc;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #cccccc;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  .footer .footer-grid {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* Style email link in contact section */
+#contact a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* Prevent button from overflowing navbar on smaller screens */
+.nav-button-wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Ensure proper spacing and alignment */
+.custom-nav-button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.custom-nav-button:hover {
+  background-color: #3730a3;
+}
+
+/* Remove blue underline or border on mobile nav toggle or links */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus:active,
+.navbar-default .navbar-toggle:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Optional: remove focus outline on nav links */
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}

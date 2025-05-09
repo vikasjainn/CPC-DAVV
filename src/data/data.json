@@ -1,0 +1,177 @@
+{
+  "Header": {
+    "title": "Centralized Placement Cell",
+    "paragraph": "The Centralized Placement Cell at Devi Ahilya Vishwavidyalaya offers all placements and career related details and solutions at one place."
+  },
+  "About": {
+    "paragraph": "Among the elite technology institutes of the country, DAVV Indore embodies technology, research, and development in the purest form. DAVV Indore boasts of a unique hands-on curriculum, creme de la creme of students who epitomize all-around proficiency in technical and professional matters. All the Placement-associated activities are handled by the institute’s Training and Placement Cell (T&P Cell). The T&P consists of T&P Officer, Faculty Members, Student Placement Committee & student volunteers working round the clock to provide the best possible services to the visiting organizations.",
+    "paragraph2": "Among the elite technology institutes of the country, DAVV Indore embodies technology, research, and development in the purest form. DAVV Indore boasts of a unique hands-on curriculum, creme de la creme of students who epitomize all-around proficiency in technical and professional matters. All the Placement-associated activities are handled by the institute’s Training and Placement Cell (T&P Cell). The T&P consists of T&P Officer, Faculty Members, Student Placement Committee & student volunteers working round the clock to provide the best possible services to the visiting organizations.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "",
+      "largeImage": "img/portfolio/cpc1.png",
+      "smallImage": "img/portfolio/cpc1.png"
+    },
+    {
+      "title": "",
+      "largeImage": "img/portfolio/cpc2.png",
+      "smallImage": "img/portfolio/cpc2.png"
+    },
+    {
+      "title": "",
+      "largeImage": "img/portfolio/cpc3.png",
+      "smallImage": "img/portfolio/cpc3.png"
+    },
+    {
+      "title": "",
+      "largeImage": "img/portfolio/cpc4.png",
+      "smallImage": "img/portfolio/cpc4.png"
+    },
+    {
+      "title": "",
+      "largeImage": "img/portfolio/cpc5.png",
+      "smallImage": "img/portfolio/cpc5.png"
+    },
+    {
+      "title": "",
+      "largeImage": "img/portfolio/cpc6.png",
+      "smallImage": "img/portfolio/cpc6.png"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Unified Industry Connect",
+      "text": "Acts as a central hub for all affiliated institutes, building strong relationships with top recruiters across diverse sectors."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Holistic Student Development",
+      "text": "Offers training in soft skills, aptitude, technical interviews, and group discussions to prepare students for corporate readiness."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Consistent Placement Drives",
+      "text": "Regularly organizes campus placement drives, pooled recruitments, and career expos in collaboration with reputed organizations."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Data-Driven Insights",
+      "text": "Maintains placement records, trends, and analytics to guide students and optimize strategies for future opportunities."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Customized Company Engagement",
+      "text": "Aligns student strengths with specific company requirements to ensure better role fit and successful hiring outcomes."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Inclusive and Transparent Process",
+      "text": "Ensures equal opportunities for students across all disciplines, following a transparent and merit-based selection process."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/cpc01.jpeg",
+      "text": "\"We believe in nurturing talent and connecting it with the right opportunities. Our goal is to make every student industry-ready.\"",
+      "name": "Dr. Rakesh Singhai (Vice-Chancellor DAVV)"
+    },
+    {
+      "img": "img/testimonials/cpc02.png",
+      "text": "\"“At CPC DAVV, we ensure equal access to placement support for all affiliated institutes. Excellence is our shared mission.\"",
+      "name": "Dr. Govind Maheshwari"
+    },
+    {
+      "img": "img/testimonials/cpc03.jpeg",
+      "text": "\"We strive to bridge the gap between academia and industry. Our initiatives empower students for dynamic careers ahead.\"",
+      "name": "Dr. Suresh Patidar"
+    },
+    {
+      "img": "img/testimonials/cpc04.jpg",
+      "text": "\"Beyond placements, we focus on shaping confident professionals. Skill-building and mentorship remain at our core.\"",
+      "name": "Dr. Nitin Nagar"
+    },
+    {
+      "img": "img/testimonials/cpc05.jpg",
+      "text": "\"Collaboration with top recruiters is our strength. We are committed to expanding our industry network each year\"",
+      "name": "Mr. Avnish Vyas"
+    },
+    {
+      "img": "img/testimonials/cpc06.jpg",
+      "text": "\"CPC is more than a placement cell—it’s a vision for inclusive growth. We work tirelessly to uplift every student’s career path\"",
+      "name": "Dr. Nishikant Waikar"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ],
+  "Contact": {
+    "address": "A-Block, Institute of Engineering and Technology Devi Ahilya Vishwavidyalaya, Khandwa Road Indore-452017 (M.P.)",
+    "phone": "(ph): 0731-2361116 / 2361117",
+    "email": "contact.cpc@dauniv.ac.in", 
+    "linkedin": "https://www.linkedin.com/company/training-and-placement-cell-davv/",
+    "youtube": "https://www.youtube.com/@deviahilyavishwavidyalaya"
+  }
+}
