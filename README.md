@@ -50,19 +50,26 @@ cd cpc-davv
 
 
 ### 2. Install dependencies
+
+```bash
  yarn install
+```
+
 ⚠️ If you get an error related to missing react-scripts, install it manually: 
  yarn add react-scripts
 
 ### 3. Start the development server
 To start the app locally on your machine, use:
-
+```bash
  yarn start
+```
 This will open the app at http://localhost:3000.
 
 ### 4. Build for Production
 To create a production build, run the following command:
+ ```bash
  yarn build
+```
 
 ### 5. FAQ
 Q: I get "Command 'start' not found" when running yarn start?
