@@ -14,21 +14,21 @@ export const Features = (props) => {
         <div className="row" style={{ marginTop: "70px", textAlign: "center" }}>
           <div className="col-sm-3">
             <h3>
-              <CountUp end={200} duration={3} />+
+              <CountUp end={200} duration={30} />+
             </h3>
             <p>Companies Visited</p>
           </div>
           
           <div className="col-sm-3">
             <h3>
-              <CountUp end={1000} duration={3} />+
+              <CountUp end={1000} duration={30} />+
             </h3>
             <p>Students Placed</p>
           </div>
           
           <div className="col-sm-3">
             <h3>
-              <CountUp end={5} duration={3} /> LPA
+              <CountUp end={5} duration={5} /> LPA
             </h3>
             <p>Average Package</p>
           </div>
@@ -36,7 +36,7 @@ export const Features = (props) => {
           {/* New Counter */}
           <div className="col-sm-3">
             <h3>
-              <CountUp end={1300} duration={3} />+
+              <CountUp end={1300} duration={30} />+
             </h3>
             <p>Total Offers</p>
           </div>

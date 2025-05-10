@@ -53,32 +53,32 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "image": "/img/icons/001.svg",
       "name": "Unified Industry Connect",
       "text": "Acts as a central hub for all affiliated institutes, building strong relationships with top recruiters across diverse sectors."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "image": "/img/icons/002.svg",
       "name": "Holistic Student Development",
       "text": "Offers training in soft skills, aptitude, technical interviews, and group discussions to prepare students for corporate readiness."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "image": "img/icons/003.svg",
       "name": "Consistent Placement Drives",
       "text": "Regularly organizes campus placement drives, pooled recruitments, and career expos in collaboration with reputed organizations."
     },
     {
-      "icon": "fa fa-language",
+      "image": "img/icons/004.svg",
       "name": "Data-Driven Insights",
       "text": "Maintains placement records, trends, and analytics to guide students and optimize strategies for future opportunities."
     },
     {
-      "icon": "fa fa-plane",
+      "image": "/img/icons/005.svg",
       "name": "Customized Company Engagement",
       "text": "Aligns student strengths with specific company requirements to ensure better role fit and successful hiring outcomes."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "image": "/img/icons/006.svg",
       "name": "Inclusive and Transparent Process",
       "text": "Ensures equal opportunities for students across all disciplines, following a transparent and merit-based selection process."
     }

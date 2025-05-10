@@ -6,16 +6,17 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Empowering Careers</h2>
-          <p>
-          The Strength of DAVV's Centralized Placement Cell
-          </p>
+          <p>The Strength of DAVV's Centralized Placement Cell</p>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
+                  <img
+                    src={d.image} // expects a valid relative path or import
+                    alt={d.name}
+                    style={{ width: "80px", height: "80px", objectFit: "contain", marginBottom: "15px" }}
+                  />
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
