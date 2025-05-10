@@ -42,6 +42,11 @@ A centralized, responsive web portal for **DAVV's Centralized Placement Cell** b
 
 ### 1. Clone the repository
 
+```bash
+foo@bar:~$ whoami
+foo
+```
+
 git clone https://github.com/your-username/cpc-davv.git
 cd cpc-davv
 
