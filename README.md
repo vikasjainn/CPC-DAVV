@@ -42,29 +42,29 @@ A centralized, responsive web portal for **DAVV's Centralized Placement Cell** b
 
 ### 1. Clone the repository
 
-#git clone https://github.com/your-username/cpc-davv.git
-#cd cpc-davv
+git clone https://github.com/your-username/cpc-davv.git
+cd cpc-davv
 
 ### 2. Install dependencies
-# yarn install
+ yarn install
 ⚠️ If you get an error related to missing react-scripts, install it manually: 
-# yarn add react-scripts
+ yarn add react-scripts
 
 ### 3. Start the development server
 To start the app locally on your machine, use:
 
-# yarn start
+ yarn start
 This will open the app at http://localhost:3000.
 
 ### 4. Build for Production
 To create a production build, run the following command:
-# yarn build
+ yarn build
 
 ### 5. FAQ
 Q: I get "Command 'start' not found" when running yarn start?
 A: You need to install react-scripts:
 
-# yarn add react-scripts
+ yarn add react-scripts
 
 ## Built with ❤️ by Vikas Jain
 
